@@ -1,14 +1,10 @@
 Algoritmo sin_titulo
-	
-	Definir Temperatura Como Entero
-	Leer Temperatura
-	Si (Temperatura >= 30) Entonces
-		Escribir ("Hace Calor")
+	Definir Edad Como Entero
+	Escribir "Imput your Age"
+	Leer Edad
+	Si Edad >= 18 Entonces
+		Escribir "You Are Old And have: ", Edad " Years Old"
 	SiNo
-		Si (Temperatura <= 10) Entonces
-			Escribir ("Hace Frio")
-		SiNo
-			Escribir ("Temperatura Es Agradable")
-		FinSi
+		Escribir "You Are Yonger"
 	FinSi
 FinAlgoritmo

@@ -1,12 +1,8 @@
-Algoritmo Validacion_De_Ent
-	Definir Num Como Entero
-	Escribir "Imput One Positive Number"
-	Leer Num
+Algoritmo sin_titulo
+	Definir Num, Num1, Result Como Entero
+	Escribir "Write Two Numbers"
+	Leer Num, Num1
+	Result = Num + Num1
+	Escribir "The Result for Sum Is: ", Result
 	
-	Mientras Num <= 0 Hacer
-		Escribir "U Number is Invaliable, Imput Positive Number: "
-		Leer Num
-	Fin Mientras
-	
-	Escribir  "Number Correct: ", Num
 FinAlgoritmo

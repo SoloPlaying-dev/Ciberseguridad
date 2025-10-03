@@ -1,9 +1,7 @@
 Algoritmo sin_titulo
-	Definir Contado Como Entero
-	Contado = 1
-	Repetir
-		Escribir "Contador: ", Contado
-		Contado= Contado +1
-	Hasta Que Contado > 500
-	Escribir "Fin Del Siclo"
+	Definir Num Como Entero
+	Escribir 'Write Number'
+	Leer Num
+	Num <- Num*2
+	Escribir 'The result is: ', Num
 FinAlgoritmo

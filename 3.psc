@@ -1,9 +1,7 @@
-Algoritmo Text_Cont
-	Definir Cont Como Entero
-	Cont = 1
-	Mientras Cont <= 100  Hacer
-		Escribir "Cont: ", Cont
-		Cont = Cont+1
-	Fin Mientras
-	Escribir "Llego a su fin"
+Algoritmo sin_titulo
+	Definir  Num Como Real
+	Escribir "Imput one Number"
+	Leer Num 
+	Num = Num / 2
+	Escribir "Result Is: ", Num
 FinAlgoritmo
