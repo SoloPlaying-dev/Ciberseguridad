@@ -1,7 +1,10 @@
 Algoritmo sin_titulo
-	Definir  Num Como Real
-	Escribir "Imput one Number"
-	Leer Num 
-	Num = Num / 2
-	Escribir "Result Is: ", Num
+	Definir num Como Entero
+    Escribir "Ingrese un número: "
+    Leer num
+    Si num % 2 = 0 Entonces
+        Escribir "El número es par"
+    Sino
+        Escribir "El número es impar"
+    FinSi
 FinAlgoritmo

@@ -1,8 +1,14 @@
 Algoritmo sin_titulo
-	Definir Num, Num1, Result Como Entero
-	Escribir "Write Two Numbers"
-	Leer Num, Num1
-	Result = Num + Num1
-	Escribir "The Result for Sum Is: ", Result
-	
+	Definir num Como Entero
+    Escribir "Ingrese un número: "
+    Leer num
+    Si num > 0 Entonces
+        Escribir "El número es positivo"
+    Sino
+        Si num < 0 Entonces
+            Escribir "El número es negativo"
+        Sino
+            Escribir "El número es cero"
+        FinSi
+    FinSi
 FinAlgoritmo

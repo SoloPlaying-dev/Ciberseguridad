@@ -1,7 +1,11 @@
 Algoritmo sin_titulo
-
-		Definir letra Como Caracter
-		Escribir "Escribe una letra: "
-		Leer letra
-		Escribir "La letra que escribiste es: ", letra
+	Definir num, suma Como Entero
+    suma <- 0
+    Escribir "Ingrese números (0 para terminar): "
+    Leer num
+    Mientras num <> 0 Hacer
+        suma <- suma + num
+        Leer num
+    FinMientras
+    Escribir "La suma total es: ", suma
 FinAlgoritmo

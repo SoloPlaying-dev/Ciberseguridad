@@ -1,7 +1,10 @@
 Algoritmo sin_titulo
-	Definir Num Como Entero
-	Escribir 'Write Number'
-	Leer Num
-	Num <- Num*2
-	Escribir 'The result is: ', Num
+	Definir edad Como Entero
+    Escribir "Ingrese su edad: "
+    Leer edad
+    Si edad >= 18 Entonces
+        Escribir "Eres mayor de edad"
+    Sino
+        Escribir "Eres menor de edad"
+    FinSi
 FinAlgoritmo

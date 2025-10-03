@@ -1,11 +1,8 @@
 Algoritmo sin_titulo
-    Definir internet Como Logico
-    Definir respuesta Como Entero
-	
-    Escribir "¿Tienes internet en casa? (1 = Sí, 0 = No): "
-    Leer respuesta
-	
-    internet <- respuesta = 1
-	
-    Escribir "Valor lógico guardado: ", internet
+	Definir i Como Entero
+    i <- 1
+    Mientras i <= 10 Hacer
+        Escribir i
+        i <- i + 1
+    FinMientras
 FinAlgoritmo

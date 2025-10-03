@@ -1,8 +1,14 @@
 Algoritmo sin_titulo
-	Definir Num, Num1, Result Como Reales
-	Escribir "Imput Two Numbers"
-	Leer Num, Num1
-	Result = Num + Num1
-	Result = Result / 2
-	Escribir "The Result for Prom Is: ", Result
+	Definir nota Como Entero
+    Escribir "Ingrese la nota (0-100): "
+    Leer nota
+    Si nota >= 90 Entonces
+        Escribir "Aprobado con A"
+    Sino
+        Si nota >= 70 Entonces
+            Escribir "Aprobado"
+        Sino
+            Escribir "Reprobado"
+        FinSi
+    FinSi
 FinAlgoritmo

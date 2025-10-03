@@ -1,6 +1,9 @@
 Algoritmo sin_titulo
-	Definir palabra Como Cadena
-    Escribir "Escribe una palabra: "
-    Leer palabra
-    Escribir "La palabra tiene ", Longitud(palabra), " caracteres."
+	Definir n Como Entero
+    Escribir "Ingrese un número para el conteo regresivo: "
+    Leer n
+    Mientras n >= 1 Hacer
+        Escribir n
+        n <- n - 1
+    FinMientras
 FinAlgoritmo
