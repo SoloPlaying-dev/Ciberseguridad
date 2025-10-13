@@ -1,14 +1,18 @@
-Algoritmo sin_titulo
-	Definir num Como Entero
+Funcion respuesta <- EsPar(numero)
+    Si numero MOD 2 = 0 Entonces
+        respuesta <- Verdadero
+    Sino
+        respuesta <- Falso
+    FinSi
+FinFuncion
+
+Algoritmo ParOImpar
+    Definir num Como Entero
     Escribir "Ingrese un número: "
     Leer num
-    Si num > 0 Entonces
-        Escribir "El número es positivo"
+    Si EsPar(num) Entonces
+        Escribir "El número es par."
     Sino
-        Si num < 0 Entonces
-            Escribir "El número es negativo"
-        Sino
-            Escribir "El número es cero"
-        FinSi
+        Escribir "El número es impar."
     FinSi
 FinAlgoritmo

@@ -1,11 +1,20 @@
-Algoritmo sin_titulo
-	Definir monto, total Como Real
-    Escribir "Ingrese el monto de la compra: "
-    Leer monto
-    Si monto > 500 Entonces
-        total <- monto * 0.90
-        Escribir "Total a pagar con 10% de descuento: ", total
+Funcion mayor <- MayorNumero(a, b, c)
+    Si a >= b Y a >= c Entonces
+        mayor <- a
     Sino
-        Escribir "Total a pagar: ", monto
+        Si b >= a Y b >= c Entonces
+            mayor <- b
+        Sino
+            mayor <- c
+        FinSi
     FinSi
+FinFuncion
+
+Algoritmo MayorDeTres
+    Definir x, i, z, resultado Como Entero
+    Escribir "Ingrese tres números: "
+    Leer x, i, z
+	
+    resultado <- MayorNumero(x, i, z)
+    Escribir "El mayor número es: ", resultado
 FinAlgoritmo
