@@ -39,4 +39,3 @@ def sumar():
     multiplicar()
     dividir()
     sumar()
-
