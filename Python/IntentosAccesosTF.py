@@ -22,13 +22,13 @@ intentos = []  # Cada intento será una lista: [usuario, servidor, ip, tipo, hor
 
 def RegistrarIntento(usuario, servidor, ip, tipo, resultado):
     """Registra un intento de acceso con su información básica."""
-    print(f"✅ Intento registrado: {usuario} -> {servidor} ({resultado})")
     if usuario not in usuarios or servidor not in servidores:
         print(f"⚠️ Error: Usuario o Servidor no reconocido.")
         return
     hora = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     intento = [usuario, servidor, ip, tipo, hora, resultado]
     intentos.append(intento)
+    print(f"✅ Intento registrado: {usuario} -> {servidor} ({resultado})")
     
     # Verificamos si hay actividad sospechosa (mismo IP con fallos repetidos)
     GenerarAlertas(ip)
