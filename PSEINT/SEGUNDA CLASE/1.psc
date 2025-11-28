@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Algoritmo sin_titulo
 	Definir Num Como Entero
 	Escribir 'Write Number'
@@ -5,3 +6,12 @@ Algoritmo sin_titulo
 	Num <- Num*2
 	Escribir 'The result is: ', Num
 FinAlgoritmo
+=======
+Algoritmo sin_titulo
+	Definir Num Como Entero
+	Escribir 'Write Number'
+	Leer Num
+	Num <- Num*2
+	Escribir 'The result is: ', Num
+FinAlgoritmo
+>>>>>>> dc4efac4de82fd9e0796ce6c8f7ba8700b6a6c1e

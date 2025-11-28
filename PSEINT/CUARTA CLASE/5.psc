@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Funcion mayor <- MayorNumero(a, b, c)
     Si a >= b Y a >= c Entonces
         mayor <- a
@@ -18,3 +19,25 @@ Algoritmo MayorDeTres
     resultado <- MayorNumero(x, i, z)
     Escribir "El mayor número es: ", resultado
 FinAlgoritmo
+=======
+Funcion mayor <- MayorNumero(a, b, c)
+    Si a >= b Y a >= c Entonces
+        mayor <- a
+    Sino
+        Si b >= a Y b >= c Entonces
+            mayor <- b
+        Sino
+            mayor <- c
+        FinSi
+    FinSi
+FinFuncion
+
+Algoritmo MayorDeTres
+    Definir x, i, z, resultado Como Entero
+    Escribir "Ingrese tres números: "
+    Leer x, i, z
+	
+    resultado <- MayorNumero(x, i, z)
+    Escribir "El mayor número es: ", resultado
+FinAlgoritmo
+>>>>>>> dc4efac4de82fd9e0796ce6c8f7ba8700b6a6c1e

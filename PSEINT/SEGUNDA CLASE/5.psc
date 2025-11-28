@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Algoritmo sin_titulo
 	Definir Edad Como Entero
 	Escribir "Imput your Age"
@@ -8,3 +9,15 @@ Algoritmo sin_titulo
 		Escribir "You Are Yonger"
 	FinSi
 FinAlgoritmo
+=======
+Algoritmo sin_titulo
+	Definir Edad Como Entero
+	Escribir "Imput your Age"
+	Leer Edad
+	Si Edad >= 18 Entonces
+		Escribir "You Are Old And have: ", Edad " Years Old"
+	SiNo
+		Escribir "You Are Yonger"
+	FinSi
+FinAlgoritmo
+>>>>>>> dc4efac4de82fd9e0796ce6c8f7ba8700b6a6c1e
