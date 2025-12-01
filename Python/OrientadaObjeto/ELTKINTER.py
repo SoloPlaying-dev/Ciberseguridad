@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
-
+#nose
 # 1. Ventana Básica con Mensaje de Bienvenida (Label)
 def interfaz_basica():
     """Crea una ventana simple con un mensaje de bienvenida."""
