@@ -1,3 +1,9 @@
+# ====================================================================
+# HIPOLITO JUNIOR RODRIGUEZ ABREU
+# Monitor de Accesos - Sistema de Monitoreo de Intentos de Acceso
+# Fecha: 12-3-2025
+# ====================================================================
+
 import datetime as dt
 import tkinter as tk
 from tkinter import ttk, scrolledtext, messagebox
