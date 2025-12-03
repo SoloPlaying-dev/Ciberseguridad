@@ -30,3 +30,4 @@ class Aplicacion:
         self.ventana1.title(" - ".join(opciones))
 
 aplicacion1 = Aplicacion()
+
