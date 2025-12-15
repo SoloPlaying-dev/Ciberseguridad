@@ -5,11 +5,11 @@
 
 // --- 1. Operaciones Básicas ---
 void ejercicio1() {
-    std::cout << "\n--- 1. Operaciones Básicas ---\n";
+    std::cout << "\n--- 1. Operaciones Basicas ---\n";
     int num1, num2;
-    std::cout << "Ingrese el primer número entero: ";
+    std::cout << "Ingrese el primer numero entero: ";
     if (!(std::cin >> num1)) return; 
-    std::cout << "Ingrese el segundo número entero: ";
+    std::cout << "Ingrese el segundo numero entero: ";
     if (!(std::cin >> num2)) return;
 
     double division = 0.0;
@@ -19,11 +19,11 @@ void ejercicio1() {
 
     std::cout << "Suma: " << (num1 + num2) << "\n";
     std::cout << "Resta: " << (num1 - num2) << "\n";
-    std::cout << "Multiplicación: " << (num1 * num2) << "\n";
+    std::cout << "Multiplicacion: " << (num1 * num2) << "\n";
     if (num2 != 0) {
-        std::cout << "División: " << division << "\n";
+        std::cout << "Division: " << division << "\n";
     } else {
-        std::cout << "División: Indefinida (División por cero)\n";
+        std::cout << "Division: Indefinida (Division por cero)\n";
     }
 }
 
@@ -38,45 +38,45 @@ void ejercicio2() {
     std::cout << "Ingrese su nombre: ";
     std::getline(std::cin, nombre);
 
-    std::cout << "Ingrese su edad (años): ";
+    std::cout << "Ingrese su edad : ";
     if (!(std::cin >> edad)) return;
     std::cout << "Ingrese su estatura (metros): ";
     if (!(std::cin >> estatura)) return;
 
     std::cout << "\n--- FICHA DE USUARIO ---\n";
     std::cout << "Nombre: " << nombre << "\n";
-    std::cout << "Edad: " << edad << " años\n";
+    std::cout << "Edad: " << edad << " edad\n";
     std::cout << "Estatura: " << estatura << " metros\n";
     std::cout << "------------------------\n";
 }
 
 // --- 3. Conversión de Celsius a Fahrenheit ---
 void ejercicio3() {
-    std::cout << "\n--- 3. Conversión de Celsius a Fahrenheit ---\n";
+    std::cout << "\n--- 3. Conversion de Celsius a Fahrenheit ---\n";
     double celsius, fahrenheit;
 
-    std::cout << "Ingrese la temperatura en grados Celsius (°C): ";
+    std::cout << "Ingrese la temperatura en grados Celsius : ";
     if (!(std::cin >> celsius)) return;
 
     // Fórmula: F = C * (9/5) + 32
     fahrenheit = celsius * (9.0 / 5.0) + 32.0;
 
-    std::cout << celsius << " °C equivalen a " << fahrenheit << " °F\n";
+    std::cout << celsius << " °C equivalen a " << fahrenheit << " F\n";
 }
 
 // --- 4. Área de un Rectángulo ---
 void ejercicio4() {
-    std::cout << "\n--- 4. Área de un Rectángulo ---\n";
+    std::cout << "\n--- 4. Area de un Rectangulo ---\n";
     float base, altura, area;
 
-    std::cout << "Ingrese la base del rectángulo: ";
+    std::cout << "Ingrese la base del rectangulo: ";
     if (!(std::cin >> base)) return;
-    std::cout << "Ingrese la altura del rectángulo: ";
+    std::cout << "Ingrese la altura del rectangulo: ";
     if (!(std::cin >> altura)) return;
 
     area = base * altura;
 
-    std::cout << "El área del rectángulo es: " << area << "\n";
+    std::cout << "El area del rectangulo es: " << area << "\n";
 }
 
 // --- 5. Estructura Estudiante y Mejor Promedio ---
@@ -141,7 +141,7 @@ void ejercicio7() {
     std::cout << "\n--- 7. Tabla de Multiplicar con Ciclo for ---\n";
     int numero;
     
-    std::cout << "Ingrese un número entero para ver su tabla de multiplicar: ";
+    std::cout << "Ingrese un numero entero para ver su tabla de multiplicar: ";
     if (!(std::cin >> numero)) return;
 
     std::cout << "\n--- Tabla del " << numero << " ---\n";
@@ -153,14 +153,14 @@ void ejercicio7() {
 
 // --- 8. Suma de Números con Ciclo while ---
 void ejercicio8() {
-    std::cout << "\n--- 8. Suma de Números con Ciclo while ---\n";
+    std::cout << "\n--- 8. Suma de Numeros con Ciclo while ---\n";
     int numero;
     long long sumaTotal = 0; // Usar long long para evitar desbordamiento
 
-    std::cout << "Ingrese números para sumarlos. Ingrese 0 para terminar.\n";
+    std::cout << "Ingrese numeros para sumarlos. Ingrese 0 para terminar.\n";
 
     while (true) {
-        std::cout << "Ingrese un número: ";
+        std::cout << "Ingrese un numero: ";
         if (!(std::cin >> numero)) return;
 
         if (numero == 0) {
@@ -169,16 +169,16 @@ void ejercicio8() {
         sumaTotal += numero;
     }
 
-    std::cout << "La suma total de los números ingresados es: " << sumaTotal << "\n";
+    std::cout << "La suma total de los numeros ingresados es: " << sumaTotal << "\n";
 }
 
 // --- 9. Menú de Calculadora con Ciclo do-while ---
 void ejercicio9() {
-    std::cout << "\n--- 9. Menú de Calculadora con Ciclo do-while ---\n";
+    std::cout << "\n--- 9. Menu de Calculadora con Ciclo do-while ---\n";
     int opcion, num1, num2, resultado;
 
     do {
-        std::cout << "\n--- Menú de Operaciones ---\n";
+        std::cout << "\n--- Menu de Operaciones ---\n";
         std::cout << "1. Sumar\n";
         std::cout << "2. Restar\n";
         std::cout << "3. Multiplicar\n";
@@ -192,9 +192,9 @@ void ejercicio9() {
         }
 
         if (opcion >= 1 && opcion <= 3) {
-            std::cout << "Ingrese el primer número: ";
+            std::cout << "Ingrese el primer numero: ";
             if (!(std::cin >> num1)) return;
-            std::cout << "Ingrese el segundo número: ";
+            std::cout << "Ingrese el segundo numero: ";
             if (!(std::cin >> num2)) return;
         }
 
@@ -215,7 +215,7 @@ void ejercicio9() {
                 std::cout << "Saliendo del programa. ¡Adiós!\n";
                 break;
             default:
-                std::cout << "Opción no válida. Intente de nuevo.\n";
+                std::cout << "Opcion no válida. Intente de nuevo.\n";
                 break;
         }
     } while (opcion != 4);
@@ -228,10 +228,10 @@ void ejercicio10() {
     int contadorPares = 0;
     int contadorImpares = 0;
 
-    std::cout << "A continuación, ingrese 10 números enteros.\n";
+    std::cout << "A continuación, ingrese 10 numeros enteros.\n";
 
     for (int i = 1; i <= 10; ++i) {
-        std::cout << "Ingrese el número " << i << ": ";
+        std::cout << "Ingrese el numero " << i << ": ";
         if (!(std::cin >> numero)) return;
 
         // Si el residuo de la división por 2 es 0, es par.
@@ -243,8 +243,8 @@ void ejercicio10() {
     }
 
     std::cout << "\n--- RESUMEN ---\n";
-    std::cout << "Total de números pares: " << contadorPares << "\n";
-    std::cout << "Total de números impares: " << contadorImpares << "\n";
+    std::cout << "Total de numeros pares: " << contadorPares << "\n";
+    std::cout << "Total de numeros impares: " << contadorImpares << "\n";
 }
 
 // Función principal para llamar a todos los ejercicios
