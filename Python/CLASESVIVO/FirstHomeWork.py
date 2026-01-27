@@ -1,5 +1,5 @@
 
-# --- 1. Doble de un número entero ---
+# --- WEMELY E UN MMG 1. Doble de un número entero ---
 print("\n--- 1. Doble de un número entero ---")
 try:
     num_entero = int(input("1. Introduce un número entero: "))
