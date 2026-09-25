@@ -6,7 +6,7 @@ try:
     doble = num_entero * 2
     print(f"El doble de {num_entero} es: {doble}")
 except ValueError:
-    print("Error: Debes introducir un número entero válido.")
+    print("Error: Debe introducir un número entero válido.")
 
 # ----------------------------------------------------------------------
 
